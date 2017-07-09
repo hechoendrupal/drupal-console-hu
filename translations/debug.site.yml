@@ -4,6 +4,11 @@ messages:
     site: Webhely
     host: Gazdagép
     root: Gyökér
-    directory-not-found: 'Nem található a hely helyi könyvtára'
+    not-sites: 'No sites defined'
+    invalid-site: 'Invalid site name'
     private-key: 'Hiba a privát kulccsal'
     connect-error: 'Hiba történt a csatlakozáskor a távoli géphez'
+    directory-not-found: 'Nem található a hely helyi könyvtára'
+options:
+    target: Target
+    property: Property

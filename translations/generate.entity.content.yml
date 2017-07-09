@@ -16,3 +16,4 @@ questions:
     has-bundles: 'Ez a tartalom entitás rendelkezzen mezőcsoportokkal?'
     base-path: 'Meg kell adni a tartalom entitás útvonalak alapútvonalát'
     is-translatable: 'Is your entity translatable'
+    revisionable: 'Is your entity revisionable'

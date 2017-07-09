@@ -1,3 +1,7 @@
 description: 'Cron rendszerzár feloldása a cron újbóli futtatásához'
 messages:
     released: 'A cron zárolásának feloldása sikerült'
+examples:
+    -
+        description: 'Execute the cron globally'
+        execution: "drupal cron:execute\n"

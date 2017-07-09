@@ -12,3 +12,7 @@ table:
         operation: Művelet
 messages:
     no-changes: 'Nincs változás.'
+examples:
+    -
+        description: 'Provide a config directory'
+        execution: 'drupal config:diff ../config/path'

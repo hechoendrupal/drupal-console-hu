@@ -3,6 +3,7 @@ arguments:
     address: 'A cím:port értékek'
 messages:
     executing: 'PHP végrehajtása innen: "%s".'
+    listening: 'Listening on "%s".'
 errors:
     binary: 'Nem található PHP bináris fájl a kiszolgáló futtatásához.'
 examples:

@@ -2,13 +2,15 @@ description: 'Az alkalmazás aktuális naplóeseményeinek megjelenítése'
 arguments:
     event-id: 'DBLog eseményazonosító'
 options:
-    type: 'Események szűrése típus alapján'
-    severity: 'Események szűrése súlyossági szintjük alapján'
-    user-id: 'Események szűrése felhasználói azonosító alapján'
     asc: 'List events in ascending order'
     limit: 'Egy adott számra korlátozza a találatok számát'
     offset: 'Egy korlát kezdőpontja'
+    yml: 'Print in a yml style'
+    type: 'Események szűrése típus alapján'
+    severity: 'Események szűrése súlyossági szintjük alapján'
+    user-id: 'Események szűrése felhasználói azonosító alapján'
 messages:
+    not-found: 'Nem található a DBLog esemény: "%s"'
     event-id: Eseményazonosító
     type: Típus
     date: Dátum
@@ -16,4 +18,3 @@ messages:
     user: Felhasználó
     severity: Súlyosság
     invalid-severity: 'A súlyosság típusa érvénytelen, a szűrő figyelmen kívül maradt'
-    not-found: 'Nem található a DBLog esemény: "%s"'

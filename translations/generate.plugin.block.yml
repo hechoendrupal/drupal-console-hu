@@ -16,6 +16,7 @@ questions:
     plugin-id: 'Meg kell adni a bővítmény azonosítóját'
     inputs: common.questions.inputs
     services: common.questions.services
+    theme-region: 'Enter the theme region to render the Plugin Block.'
 messages:
     inputs: 'Felvehetők beviteli mezők a blokk speciális beállításainak létrehozásához. Ez nem kötelező, az <info>enter</info> megnyomásával <info>folytatható</info> a művelet'
     invalid-theme-region: 'Érvénytelen régió: "%s"'

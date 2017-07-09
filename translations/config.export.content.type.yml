@@ -8,3 +8,10 @@ messages:
     content_type_exported: 'Tartalomtípus exportálása'
 options:
     optional-config: 'Tartalomtípus exportálása a modulba nem kötelező YAML-konfigurációként'
+examples:
+    -
+        description: 'Provide a content type  and module name'
+        execution: "drupal config:export:content:type page \\\n  --module=\"demo\""
+    -
+        description: 'If you want export content type provide the optional config'
+        execution: "drupal config:export:content:type page \\\n  --module=\"demo\" \\\n  --optional-config \n"

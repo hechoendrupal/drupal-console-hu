@@ -9,3 +9,10 @@ messages:
     event-deleted: '"%s" esemény törölve'
     clear-error: 'A törlési művelet meghiúsult, ellenőrizni kell a használt szűrőket'
     clear-sucess: 'Az események törlése sikeres volt'
+examples:
+    -
+        description: 'Clear the database log from DBLog table'
+        execution: "drupal database:log:clear \\\n  <database>"
+    -
+        description: 'Clear the database log from DBLog table using filters'
+        execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

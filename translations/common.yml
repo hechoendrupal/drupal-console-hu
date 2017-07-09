@@ -2,6 +2,8 @@ options:
     class: 'Class name'
     events: 'Események betöltése a tárolóból'
     module: 'A modul neve.'
+    extension: 'The extension name.'
+    extension-type: 'The extension type.'
     services: 'Szolgáltatások betöltése a tárolóból.'
     tags: 'Szolgáltatáscímkék beállítása a tárolóból.'
     inputs: 'Bemenetek létrehozása egy űrlapban.'
@@ -9,6 +11,8 @@ options:
 questions:
     class: 'Enter the Class name'
     module: 'Meg kell adni a modul nevét'
+    extension: 'Enter the extension name'
+    extension-type: 'Enter the extension type'
     confirm: 'Jóváhagyja a létrehozást?'
     canceled: 'A parancs létrehozása megszakadt.'
     events:

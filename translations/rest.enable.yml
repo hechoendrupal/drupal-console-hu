@@ -8,7 +8,10 @@ questions:
 messages:
     invalid-rest-id: '"%s" REST-azonosító érvénytelen'
     formats: 'Rendelkezésre álló szerializálási formátumok'
+    methods: 'Available methods'
     authentication-providers: 'Rendelkezésre álló hitelesítésszolgáltatók'
-    selected-state: 'Kiválasztott állapot'
+    selected-method: 'Selected Method'
     selected-formats: 'Kiválasztott formátumok'
     selected-authentication-providers: 'Kiválasztott hitelesítésszolgáltatók'
+    success: 'Rest ID "%s" enabled'
+    selected-state: 'Kiválasztott állapot'

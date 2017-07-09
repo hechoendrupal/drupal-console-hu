@@ -1,4 +1,5 @@
 description: 'Az alkalmazáshoz elérhető aktuális modulok megjelenítése'
+module: 'Module name'
 options:
     status: 'Modul állapota [engedélyezett|tiltott]'
     type: 'Modul típusa [alaprendszer|nem alaprendszer]'
@@ -18,3 +19,10 @@ messages:
     no-results: 'Module "%s" was not found in the repository'
     enabled: Engedélyezett
     disabled: Tiltott
+examples:
+    -
+        description: 'Display all installed modules'
+        execution: 'drupal mod --status=installed'
+    -
+        description: 'Display all installed and no core modules'
+        execution: 'drupal mod --status=installed --type=no-core'

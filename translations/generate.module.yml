@@ -13,6 +13,7 @@ options:
     composer: 'composer.json fájl hozzáadása'
     dependencies: 'Modulfüggőségek vesszővel elválasztva (pl. context, panels)'
     test: 'Tesztosztály létrehozása'
+    twigtemplate: 'Generate theme template'
 questions:
     module: 'Meg kell adni az új modulnevet'
     machine-name: 'Meg kell adni a modul programok által használt nevét'
@@ -26,6 +27,7 @@ questions:
     composer: 'A modul tartalmazzon composer.json fájlt?'
     dependencies: 'Modulfüggőségek hozzáadása most?'
     test: 'Létrejöjjön egységteszt osztály?'
+    twigtemplate: 'Do you want to generate a themeable template'
 warnings:
     module-unavailable: 'Figyelmeztetés! A következő modulok már nem állnak rendelkezésre a helyi környezetben: "%s"'
 errors:

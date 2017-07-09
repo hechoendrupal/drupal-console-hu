@@ -3,3 +3,7 @@ help: 'A <info>config:settings:debug</info> parancs a beállításfájl aktuáli
 welcome: 'Üdvözlet a Drupal konfigurációs beállítások hibakeresése parancsban'
 messages:
     current: 'A beállításfájl aktuális kulcs:érték beállításai'
+examples:
+    -
+        description: 'Displays key:value as per the settings file'
+        execution: "drupal debug:config:settings\n"

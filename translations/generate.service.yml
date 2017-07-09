@@ -13,6 +13,7 @@ questions:
     service-name: 'Meg kell adni a szolgáltatásnevet'
     class: 'Meg kell adni az osztálynevet'
     interface: 'Interfész létrehozása'
+    interface-name: 'Enter the interface name'
     services: common.options.services
     path: 'Enter the path for the services'
 messages:
