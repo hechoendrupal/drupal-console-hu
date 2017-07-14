@@ -6,6 +6,7 @@ questions:
     config-name: 'Ki kell választani egy konfigurációs egységet'
 messages:
     no-directory: 'Hiba történt a könyvtár létrehozásakor a következő helyen:'
+    choose-configuration: 'Choose a configuration'
 examples:
     -
         description: 'Edit system cron configurations with "vim" (default editor).'
