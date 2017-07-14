@@ -5,3 +5,7 @@ messages:
     url: 'Egyszer használatos bejelentkezési azonosító "%s" számára: "%s"'
 errors:
     invalid-user: 'Nem tölthető be a felhasználó entitás (felhasználói azonosító: "%s").'
+examples:
+    -
+        description: 'Get one time login url for user id 1'
+        execution: "drupal user:login:url  1\n"

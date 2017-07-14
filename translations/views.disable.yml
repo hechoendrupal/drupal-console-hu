@@ -1,3 +1,10 @@
 description: 'Nézet letiltása'
 messages:
     disabled-successfully: '"%s" nézet letiltva.'
+examples:
+    -
+        description: 'Disable content view'
+        execution: "drupal views:disable  content\n"
+    -
+        description: 'Disable frontpage view'
+        execution: "drupal views:disable  frontpage\n"

@@ -6,3 +6,7 @@ messages:
     description: Leírás
     no-migrations: 'Nincsenek rendelkezésre álló költöztetések, meg kell próbálni a  "migrate:setup:migrations" parancs végrehajtását'
     tags: Címkék
+examples:
+    -
+        description: 'Displays current migration'
+        execution: "drupal debug:migrate\n"

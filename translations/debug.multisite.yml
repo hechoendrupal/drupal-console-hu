@@ -5,3 +5,7 @@ messages:
     site: Webhely
     directory: Könyvtár
     site-format: 'A webhelyek formátuma a következő: <port>.<tartomány>.<útvonal>'
+examples:
+    -
+        description: 'Displays multisite information'
+        execution: "drupal debug:multisite\n"

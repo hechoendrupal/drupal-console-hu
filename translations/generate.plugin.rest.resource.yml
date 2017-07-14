@@ -17,3 +17,7 @@ questions:
     plugin-states: 'Ki kell választani, hogy az erőforrás milyen REST-állapotokat valósít meg (alapértelmezés szerint a GET van kiválasztva)'
 messages:
     selected-states: 'Kiválasztott állapotok'
+examples:
+    -
+        description: 'Generate a rest resource plugin using GET specifying the module name, the class, the plugin id, its label, the target url and the request type'
+        execution: "drupal generate:plugin:rest:resource  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultRestResource\"  \\\n  --plugin-id=\"default_rest_resource\"  \\\n  --plugin-label=\"Default rest resource\"  \\\n  --plugin-url=\"http://rest.resources.example.com\"  \\\n  --plugin-states='GET'\n"

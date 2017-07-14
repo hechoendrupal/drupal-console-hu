@@ -9,3 +9,7 @@ questions:
     title: 'Nézetmező bővítmény címe'
     description: 'Nézetmező bővítmény leírása'
     description_default: 'A remek egyéni nézetmező bővítményem.'
+examples:
+    -
+        description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'
+        execution: "drupal generate:plugin:views:field  \\\n  --module=\"modulename\"  \\\n  --class=\"CustomViewsField\"  \\\n  --title=\"Custom views field\"  \\\n  --description=\"My awesome custom views field plugin.\"\n"

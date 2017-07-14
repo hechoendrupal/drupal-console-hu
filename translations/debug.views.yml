@@ -16,3 +16,7 @@ messages:
     display-name: Név
     display-description: Leírás
     display-paths: Útvonalak
+examples:
+    -
+        description: 'List of views on the site'
+        execution: "drupal debug:views\n"

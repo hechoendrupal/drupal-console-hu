@@ -20,3 +20,7 @@ messages:
     title-already-added: 'A cím hozzáadása már megtörtént'
     method-name-already-added: 'A metódusnév hozzáadása már megtörtént'
     path-already-added: 'Az útvonal hozzáadása már megtörtént'
+examples:
+    -
+        description: 'Generate controller specifying the module name, the class name and its routes'
+        execution: "drupal generate:controller  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultController\"  \\\n  --routes='\"title\":\"ControllerMethod\", \"name\":\"modulename.default_controller_hello\", \"method\":\"hello\", \"path\":\"/modulename/hello/{name}\"'  \\\n  --test"
