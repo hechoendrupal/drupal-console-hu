@@ -13,6 +13,7 @@ messages:
     select-release: 'Válassza ki a kedvenc kiadását'
     outside-drupal: 'A Drupal gyökerét nem lehet meghatározni. A --root használatával beállítható a cél, ehelyett az aktuális mappa lesz használatban.'
     error-creating-folder: 'Hiba történt "%s" mappa létrehozásakor, ellenőrizni kell az engedélyeket'
-tips:
+examples:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        description: 'Download theme specifying name and version'
+        execution: "drupal theme:download  Alina 7.x-1.2\n"

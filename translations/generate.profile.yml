@@ -19,3 +19,7 @@ warnings:
     module-unavailable: 'Figyelmeztetés! A következő modulok már nem állnak rendelkezésre a helyi környezetben: "%s"'
 errors:
     directory-exists: 'A következő célkönyvtár nem üres: "%s".'
+examples:
+    -
+        description: 'Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies'
+        execution: "drupal generate:profile  \\\n  --profile=\"NewProfileName\"  \\\n  --machine-name=\"newprofilename\"  \\\n  --description=\"My Useful Profile\"  \\\n  --core=\"8.x\"  \\\n  --dependencies=\"modulename\"\n"

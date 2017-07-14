@@ -2,7 +2,7 @@ description: 'Aktuális Drupal-telepítés állapotának megtekintése'
 messages:
     application: Alkalmazás
     system: Rendszerinformáció
-    hash_salt: 'Hash salt'
+    hash-salt: 'Hash salt'
     console: 'Drupal Console'
     database: Adatbázis-kapcsolat
     driver: Illesztőprogram
@@ -12,9 +12,18 @@ messages:
     password: Jelszó
     theme: Sminkek
     connection: Kapcsolat
+    theme-default: 'Default theme'
+    theme-admin: 'Admin theme'
+    directory: Könyvtárak
+    directory-root: 'Site root directory'
+    directory-temporary: 'Site temporary directory'
+    directory-theme-default: 'Default theme directory'
+    directory-theme-admin: 'Admin theme directory'
+    current-version: 'Current Drupal ("%s")'
+    not-installed: 'Drupal is not installed'
+    hash_salt: 'Hash salt'
     theme_default: 'Alapértelmezett smink'
     theme_admin: 'Adminisztrátori smink'
-    directory: Könyvtárak
     directory_root: 'Webhely gyökérkönyvtára'
     directory_temporary: 'Webhely ideiglenes könyvtára'
     directory_theme_default: 'Alapértelmezett sminkkönyvtár'
@@ -22,3 +31,7 @@ messages:
     current_version: 'Aktuális Drupal verzió ("%s")'
     not_installed: 'A Drupal nincs telepítve'
     not_available: 'Not available'
+examples:
+    -
+        description: 'Get drupal installation status specifying the output format as table'
+        execution: "drupal site:status  \\\n  --format=\"table\"\n"

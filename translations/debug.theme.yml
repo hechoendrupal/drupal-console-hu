@@ -13,3 +13,10 @@ messages:
     regions: Régiók
     invalid-theme: '"%s" nem érvényes smink'
     theme-properties: Tulajdonságok
+examples:
+    -
+        description: 'List of themes on the site'
+        execution: 'drupal debug:theme'
+    -
+        description: 'Bartik theme information'
+        execution: 'drupal debug:theme bartik'

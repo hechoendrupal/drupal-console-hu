@@ -14,3 +14,7 @@ questions:
     container-aware: 'A parancs ismeri-e a drupal telepítési helyét a végrehajtásakor?'
 messages:
     title-not-empty: 'A cím nem lehet üres'
+examples:
+    -
+        description: 'Generate a command specifying the extension name and type, its class and the name.'
+        execution: "drupal generate:command  \\\n  --extension=\"ExtensionName\"  \\\n  --extension-type=\"module\"  \\\n  --class=\"DefaultCommand\"  \\\n  --name=\"CommandName\""

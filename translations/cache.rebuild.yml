@@ -5,6 +5,7 @@ messages:
     welcome: 'Üdvözlet a cache:rebuild parancsban'
     rebuild: 'Kis türelmet, a gyorsítótárak újraépítése folyamatban van.'
     completed: 'A gyorsítótárak törlése befejeződött.'
+    invalid-cache: 'Cache "%s" is invalid.'
     invalid_cache: '"%s" gyorsítótár érvénytelen.'
 questions:
     cache: 'Gyorsítótár kiválasztása.'

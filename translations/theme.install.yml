@@ -19,3 +19,7 @@ messages:
     theme-default-success: 'Sikerült "%s" smink telepítése alapértelmezett sminkként'
     disabled-themes: 'Csak nem telepített sminkek lesznek listázva az automatikus kiegészítésben'
     invalid-theme-default: 'Az alapértelmezett beállítás csak egy sminknél érvényes'
+examples:
+    -
+        description: 'Install theme specifying the name'
+        execution: "drupal theme:install  mytheme\n"

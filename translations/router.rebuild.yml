@@ -4,3 +4,7 @@ arguments:
 messages:
     rebuilding: 'Kis türelmet, az útvonalak újraépítése folyamatban van'
     completed: 'Az útvonalak újraépítése befejeződött.'
+examples:
+    -
+        description: 'Rebuild routes'
+        execution: 'drupal router:rebuild'

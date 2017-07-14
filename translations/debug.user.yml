@@ -15,3 +15,7 @@ messages:
     username: Felhasználónév
     roles: Szerepkörök
     status: Állapot
+examples:
+    -
+        description: 'Users list on the site'
+        execution: "drupal debug:user\n"

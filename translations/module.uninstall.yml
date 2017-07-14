@@ -13,3 +13,7 @@ messages:
     success: 'A következő modulok eltávolítása sikerült: "%s"'
     missing: 'Nem távolíthatók el a következő modulok: "%s", mert az alábbi modulok hiányoznak: "%s"'
     composer-success: 'The folowing module(s) were removed from Composer: "%s"'
+examples:
+    -
+        description: 'Uninstall the module specifying the module name'
+        execution: "drupal module:uninstall  modulename\n"

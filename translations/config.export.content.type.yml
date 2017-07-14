@@ -5,6 +5,7 @@ questions:
     content-type: 'Az exportálni kívánt tartalomtípus'
     optional-config: 'Tartalomtípus exportálása modulba nem kötelező konfigurációként'
 messages:
+    content-type-exported: 'Exporting content type'
     content_type_exported: 'Tartalomtípus exportálása'
 options:
     optional-config: 'Tartalomtípus exportálása a modulba nem kötelező YAML-konfigurációként'
