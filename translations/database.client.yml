@@ -1,6 +1,7 @@
 description: 'Adatbázisügyfél indítása, ha az elérhető'
 arguments:
     database: 'Adatbáziskulcs a settings.php fájlból'
+    target: 'Database target from settings.php'
 messages:
     connection: 'Kapcsolat: "%s"'
 examples:

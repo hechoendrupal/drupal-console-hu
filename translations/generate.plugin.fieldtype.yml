@@ -17,6 +17,8 @@ questions:
     description: 'Meg kell adni a bővítmény leírását'
     default-widget: 'Meg kell adni a bővítmény alapértelmezett mező felületi elemét'
     default-formatter: 'Meg kell adni a bővítmény alapértelmezett mezőformázóját'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description'

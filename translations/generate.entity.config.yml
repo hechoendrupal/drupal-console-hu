@@ -1,5 +1,6 @@
 description: 'Új konfigurációs entitás létrehozása'
 help: ''
+welcome: 'Welcome to the Drupal Config Entity generator'
 options:
     module: common.options.module
     entity-class: 'A konfigurációs entitás osztálya'

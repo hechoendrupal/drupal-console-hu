@@ -1,11 +1,14 @@
 description: 'Új tartalom entitás létrehozása'
 help: ''
+welcome: 'Welcome to the Drupal Content Entity generator'
 options:
     module: common.options.module
     entity-class: 'A tartalom entitás osztály'
     entity-name: 'A tartalom entitás neve'
     label: 'A felirat'
     has-bundles: 'Az entitás nem rendelkezik mezőcsoportokkal'
+    has-forms: 'Entity has forms'
+    has-owner: 'Entity has owner'
     base-path: 'A tartalom entitás útvonalak alapútvonala'
     is-translatable: 'Content entity translatable'
 questions:
@@ -14,6 +17,8 @@ questions:
     entity-name: 'Meg kell adni az új tartalom entitás nevét'
     label: 'Meg kell adni az új tartalom entitás feliratát'
     has-bundles: 'Ez a tartalom entitás rendelkezzen mezőcsoportokkal?'
+    has-forms: 'Do you want this (content) entity to have forms?'
+    has-owner: 'Do you want this (content) entity to have an owner?'
     base-path: 'Meg kell adni a tartalom entitás útvonalak alapútvonalát'
     is-translatable: 'Is your entity translatable'
     revisionable: 'Is your entity revisionable'

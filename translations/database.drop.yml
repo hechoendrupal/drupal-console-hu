@@ -2,6 +2,7 @@ description: 'Egy adatbázis összes táblájának eldobása.'
 help: 'A <info>database:drop</info> parancs adatbázistáblák eldobását segíti.'
 arguments:
     database: 'Adatbáziskulcs a settings.php fájlból'
+    target: 'Database target from settings.php'
 question:
     drop-tables: 'Biztosan el legyen dobva az összes tábla a következő adatbázisból: "%s"?'
 messages:

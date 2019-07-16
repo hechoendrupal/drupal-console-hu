@@ -1,7 +1,18 @@
 description: 'A hook_form_alter() vagy hook_form_FORM_ID_alter megvalósításának létrehozása'
 help: 'A <info>"%s"</info> parancs új "%s" létrehozását segíti'
+welcome: 'Welcome to the Drupal Form Alter generator'
 options:
+    module: 'The Module name.'
     form-id: 'A módosítandó formazonosító'
+    inputs: 'Create inputs in a form.'
+questions:
+    module: 'Enter the module name'
+    form-id: 'Enter the Form ID to alter'
+    type: 'Enter New field type'
+    label: 'Input label'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
 messages:
     inputs: 'Felvehetők űrlapmezők a módosítandó űrlapba. Ez nem kötelező, az <info>enter</info> megnyomásával <info>folytatható</info> a művelet'
     loading-forms: 'A Webprofiler modul űrlapmeghatározásainak betöltése'

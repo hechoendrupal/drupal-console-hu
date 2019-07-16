@@ -1,4 +1,8 @@
 description: 'A webhely által támogatott nyelv hozzáadása'
 messages:
     invalid-language: '"%s" nyelv érvénytelen'
+    invalid-languages: 'Languages "%s" are invalid'
     language-add-successfully: '"%s" nyelv hozzáadása sikerült.'
+    languages-add-successfully: 'Languages "%s" were added successfully.'
+    language-installed: 'Language "%s" is already installed.'
+    languages-installed: 'Languages "%s" are already installed.'

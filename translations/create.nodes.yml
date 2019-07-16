@@ -7,6 +7,7 @@ options:
     limit: 'Hány tartalom jöjjön létre'
     title-words: 'A tartalom címei által tartalmazott szavak maximális száma'
     time-range: 'Mennyire legyen visszadátumozva a tartalom?'
+    revision: 'Create revisions'
 questions:
     content-type: 'Ki kell választani a tartalom létrehozásakor használandó tartalomtípusokat'
     limit: 'Meg kell adni, hány csomópont jöjjön létre'
@@ -19,6 +20,7 @@ questions:
         - '1 héttel ezelőtt'
         - '1 hónappal ezelőtt'
         - '1 évvel ezelőtt'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: Tartalomazonosító
     content-type: Tartalomtípus
@@ -26,6 +28,7 @@ messages:
     created: 'Létrehozás időpontja'
     invalid-content-types: 'Érvénytelen tartalomtípusok: "%s"'
     created-nodes: '"%s" tartalom sikeresen létrejött'
+    error: 'Error creating nodes: "%s"'
 examples:
     -
         description: 'Provide the content type name.'

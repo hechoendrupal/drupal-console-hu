@@ -31,6 +31,8 @@ questions:
     field-type: 'Meg kell adni a mezőtípust, amivel a formázó és a felületi elem bővítmény használható'
     default-widget: 'Meg kell adni a mezőtípus bővítmény alapértelmezett mező felületi elemét'
     default-formatter: 'Meg kell adni a mezőtípus bővítmény alapértelmezett mezőformázóját'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)'

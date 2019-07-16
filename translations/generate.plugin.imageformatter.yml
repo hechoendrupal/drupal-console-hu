@@ -1,5 +1,6 @@
 description: 'Képformázó bővítmény létrehozása.'
 help: 'A <info>generate:plugin:imageformatter</info> parancs új képformázó bővítmény létrehozását segíti.'
+welcome: 'Welcome to the Drupal Image Formatter Plugin generator'
 options:
     module: common.options.module
     class: 'Bővítményosztály neve'

@@ -1,11 +1,17 @@
 description: 'Egyszer használatos felhasználói bejelentkezési URL-címet ad vissza.'
 options:
+    user: 'User name/id.'
     user-id: 'Felhasználói azonosító.'
 messages:
     url: 'Egyszer használatos bejelentkezési azonosító "%s" számára: "%s"'
+questions:
+    user: 'Enter User name/id'
 errors:
     invalid-user: 'Nem tölthető be a felhasználó entitás (felhasználói azonosító: "%s").'
 examples:
     -
         description: 'Get one time login url for user id 1'
         execution: "drupal user:login:url  1\n"
+    -
+        description: 'Get one time login url for username jmolivas'
+        execution: 'drupal user:login:url jmolivas'
