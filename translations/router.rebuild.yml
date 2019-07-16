@@ -4,6 +4,7 @@ arguments:
 messages:
     rebuilding: 'Kis türelmet, az útvonalak újraépítése folyamatban van'
     completed: 'Az útvonalak újraépítése befejeződött.'
+    error-rebuild: 'Error to rebuild route(s).'
 examples:
     -
         description: 'Rebuild routes'

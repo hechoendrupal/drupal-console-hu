@@ -1,8 +1,9 @@
 description: 'Egy fiók sikertelen bejelentkezési kísérleteinek törlése.'
 help: 'A <info>user:login:clear:attempts</info> parancs visszaállítja egy fiók sikertelen bejelentkezési kísérleteit.'
-options:
-    user-id: 'Felhasználói azonosító.'
+arguments:
+    user: 'User name/id.'
 questions:
+    user: 'Enter User name/id'
     uid: 'Felhasználói azonosító megadása.'
     numeric-uid: 'A felhasználói azonosítónak egész számnak kell lennie.'
     invalid-uid: 'A felhasználói azonosítónak nullánál nagyobb számnak kell lennie.'

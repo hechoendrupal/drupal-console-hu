@@ -2,19 +2,21 @@ description: 'Felhasználók törlése'
 help: 'A <info>user:delete</info> paranccsal törölhetők felhasználók.'
 welcome: 'Üdvözlet a Drupal felhasználótörlő programban'
 options:
-    user-id: 'Törölni kívánt felhasználói azonosító'
+    user: 'User name/id to be deleted'
     roles: 'A törölni kívánt felhasználókkal társított szerepkörök'
+    user-id: 'Törölni kívánt felhasználói azonosító'
 questions:
-    user-id: 'Törölni kívánt felhasználói azonosító (a kihagyásához üresen kell hagyni)'
+    user: 'User name/id to be deleted (empty to skip)'
     roles: 'Ki kell választani a törölni kívánt felhasználókkal társított szerepköröket'
+    user-id: 'Törölni kívánt felhasználói azonosító (a kihagyásához üresen kell hagyni)'
 messages:
     user-id: 'Felhasználói azonosító'
     username: Felhasználónév
     user-deleted: '"%s" felhasználó törölve'
     users-deleted: '"%s" felhasználók törölve'
 errors:
-    invalid-user-id: '"%s" felhasználói azonosító érvénytelen'
     invalid-user: '"%s" felhasználói azonosító érvénytelen'
+    invalid-user-id: '"%s" felhasználói azonosító érvénytelen'
 examples:
     -
         description: 'Delete user specifying the id and the user role'
@@ -22,3 +24,6 @@ examples:
     -
         description: 'Delete user specifying its id'
         execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"
+    -
+        description: 'Delete users with the role "authenticated"'
+        execution: "drupal user:delete  \\\n  --role=\"authenticated\"\n"

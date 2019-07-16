@@ -1,14 +1,21 @@
 description: 'Egyéni nézetmező bővítmény létrehozása.'
 help: 'A <info>generate:plugin:views:field</info> parancs új egyéni nézetmező bővítmény létrehozását segíti.'
+welcome: 'Welcome to the Drupal Plugin View Field generator'
 options:
+    module: 'The Module name.'
+    fields: 'Fields definition (class name, title and description).'
     class: 'Nézetmező bővítmény osztályneve'
     title: 'Nézetmező bővítmény címe'
     description: 'Nézetmező bővítmény leírása'
 questions:
+    module: 'Enter the module name'
     class: 'Nézetmező bővítmény osztályneve'
     title: 'Nézetmező bővítmény címe'
     description: 'Nézetmező bővítmény leírása'
     description_default: 'A remek egyéni nézetmező bővítményem.'
+    field-add: 'Do you want to add another field?'
+messages:
+    views-data-already-implemented: 'The hook views data was already implemented in module "%s". Please, merge the code manually'
 examples:
     -
         description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'

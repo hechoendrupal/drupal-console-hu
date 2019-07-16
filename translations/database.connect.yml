@@ -1,5 +1,7 @@
 description: 'Megjeleníti az adatbázis-kapcsolatot'
 arguments:
+    key: 'Database key from settings.php'
+    target: 'Database target from settings.php'
     database: 'Adatbáziskulcs a settings.php fájlból'
 messages:
     database-not-found: 'Nem találhatók "%s" adatbázis kapcsolatinformációi'

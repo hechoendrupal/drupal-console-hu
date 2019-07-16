@@ -8,12 +8,16 @@ arguments:
     key: Kulcs
     value: Érték
     config-name: 'A konfiguráció neve.'
+options:
+    key: Key
+    value: Value
 messages:
     configuration: 'Konfiguráció neve'
     configuration-key: 'Konfiguráció kulcsa'
     original: 'Eredeti érték'
     updated: 'Felülbírálás értéke'
     invalid-name: 'Config object "%s", does not exists'
+    invalid-config-file: 'Config file does not exist.'
 examples:
     -
         description: 'A Contact modul elárasztási korlátjának beállítása 10 értékre.'

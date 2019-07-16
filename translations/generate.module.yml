@@ -28,6 +28,8 @@ questions:
     dependencies: 'Modulfüggőségek hozzáadása most?'
     test: 'Létrejöjjön egységteszt osztály?'
     twigtemplate: 'Do you want to generate a themeable template'
+suggestions:
+    my-awesome-module: 'My Awesome Module'
 warnings:
     module-unavailable: 'Figyelmeztetés! A következő modulok már nem állnak rendelkezésre a helyi környezetben: "%s"'
 errors:

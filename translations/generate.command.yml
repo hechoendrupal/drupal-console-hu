@@ -2,16 +2,27 @@ description: 'Parancsok létrehozása a konzolhoz.'
 help: 'A <info>generate:command</info> parancs új parancs létrehozását segíti.'
 welcome: 'Üdvözlet a Drupal parancs előállítóban'
 options:
-    module: 'A modul neve (ami a parancsot tartalmazni fogja).'
-    controller-title: 'A kontroller címe.'
+    extension: 'The name of the Extension (modules, profiles or themes name that will contain the command).'
+    extension-type: 'The type of the Extension (can be module, profile or theme).'
     class: 'A parancsot leíró osztály. (A ''Command'' szóra kell végződnie).'
     name: 'A parancs neve.'
+    interact: 'Add interact method.'
+    initialize: 'Add initialize method.'
     container-aware: 'A parancs ismeri-e a drupal telepítési helyét a végrehajtáskor'
+    services: 'Load services from the container.'
+    generator: 'Add a Generator class for this command.'
+    module: 'A modul neve (ami a parancsot tartalmazni fogja).'
+    controller-title: 'A kontroller címe.'
 questions:
-    module: common.questions.module
+    extension: 'Enter the extension name'
     class: 'Meg kell adni a parancs osztályát. (A ''Command'' szóra kell végződnie).'
     name: 'Meg kell adni a parancs nevét.'
+    interact: 'Do you want to add the interact method?'
+    initialize: 'Do you want to add the initialize method?'
     container-aware: 'A parancs ismeri-e a drupal telepítési helyét a végrehajtásakor?'
+    services: 'Enter your service'
+    generator: 'Do you want to add a Generator class?.'
+    module: common.questions.module
 messages:
     title-not-empty: 'A cím nem lehet üres'
 examples:

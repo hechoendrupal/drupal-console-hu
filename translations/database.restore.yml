@@ -1,6 +1,7 @@
 description: 'Adatbázis szerkezetének és tartalmának visszaállítása.'
 arguments:
     database: 'Adatbáziskulcs a settings.php fájlból'
+    target: 'Database target from settings.php'
 options:
     file: 'Az adatbázis biztonsági mentésének fájlneve'
 messages:

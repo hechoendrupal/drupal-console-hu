@@ -1,8 +1,6 @@
 description: 'Egyetlen konfigurációs fájl exportálása yml-fájlként.'
-arguments:
-    name: 'Configuration name.'
-    config-name: 'A konfiguráció neve.'
 options:
+    name: 'Configuration name.'
     include-dependencies: 'A konfiguráció függőségei is legyenek exportálva.'
     simple-configuration: 'Egyszerű konfiguráció'
     optional: 'Export config as an optional YAML configuration in your module'

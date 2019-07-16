@@ -1,9 +1,14 @@
 description: 'Hitelesítésszolgáltató létrehozása'
 help: 'A <info>generate:authentication:provider</info> parancs új hitelesítésszolgáltató létrehozását segíti.'
+welcome: 'Welcome to the Drupal Authentication Provider generator'
 options:
+    module: 'The Module name.'
     class: 'Hitelesítésszolgáltató osztály'
     provider-id: 'Szolgáltató azonosítója'
-module: common.options.module
+questions:
+    module: 'Enter the module name'
+    class: 'Enter the Authentication Provider class'
+    provider-id: 'Enter the Provider ID'
 examples:
     -
         description: 'Generate an authentication provider specifying the module, the class and the provider id'

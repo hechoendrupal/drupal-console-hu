@@ -22,6 +22,9 @@ questions:
         confirm: 'Szolgáltatások betöltése a tárolóból?'
         message: "\nBe kell írni a szolgáltatás nevét, vagy a felfelé vagy lefelé mutató nyilakat kell használni.\nEz nem kötelező, a <info>folytatáshoz</info> megnyomható az <info>enter</info> billentyű is.\n"
         name: 'Meg kell adni a szolgáltatást'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: 'Létrejöjjön űrlapszerkezet?'
         label: 'Meg kell adni a feliratot'
@@ -34,6 +37,7 @@ questions:
         weight: 'A beviteli elem súlya'
         title: Cím
         fieldset: Mezőcsoport
+        new-field: 'Enter a new field properties'
         machine_name: 'Meg kell adni a programok által használt nevet'
 errors:
     module-dependency: 'Nincs telepítve egy hiányzó modulfüggőség: "%s". A telepítés a module:install paranccsal hajtható végre.'
@@ -49,3 +53,4 @@ messages:
     drupal-core: 'Drupal alaprendszer'
     move-phar: 'A konzol elérése a rendszer bármely részéből'
     quick-start: 'Drupal 8 letöltése, telepítése és kiszolgálása'
+    available-field-types: 'Available types: <comment>%s</comment>'

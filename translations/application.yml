@@ -1,6 +1,6 @@
 options:
     env: 'A környezet neve'
-    no-debug: 'Kikapcsolja a hibakeresési módot'
+    debug: 'Switches on debug mode'
     learning: 'Részletes kódkimenet létrehozása'
     generate-chain: 'A parancspbeállításokat és argumentumokat a chain parancsban használandó yaml-kimenetként jeleníti meg'
     generate-inline: 'A parancsbeállításokat és argumentumokat beágyazott parancsként jeleníti meg'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'ANSI kimenet tiltása'
     no-interaction: 'Ne tegyen fel semmilyen kérdést'
     check-fix: 'Kísérelje meg a hiányzó konfigurációk javítását'
+    no-debug: 'Kikapcsolja a hibakeresési módot'
 arguments:
     command: 'A végrehajtandó parancs'
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: 'Létrehozott vagy frissített fájlok'
         copied: 'Másolt fájlok'
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: "Oldalak létrehozásához meg kell adni útvonalakat ahhoz.\nAz útvonal URL elérési utat képez le egy kontrollerre. Azt határozza meg, hogy milyen függvény\nvagy metódus meghívására kerül sor egy URL elérésekor.\nHa a felhasználó a http://drupal8.dev/{{ route.path }} útvonalat nyitja meg,\nakkor az útvonalkezelő rendszer ilyen elérési úttal rendelkező útvonalat keres. Ebben az esetben egyezést fog találni,\nés végrehajtja a _controller visszahívandó metódust. Ebben az esetben a visszahívás\nosztálynévként\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\nés metódusként (\"{{ route.method }}\") van megadva."
     autocomplete: "Bash vagy Zsh: Fel kell venni ezt a sort a shell konfigurációs fájljába:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: Létre kell hozni egy szimbolikus hivatkozást\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
@@ -40,6 +43,9 @@ messages:
 errors:
     invalid-command: '"%s" parancs nincs megadva.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: 'Webhely útvonala'
